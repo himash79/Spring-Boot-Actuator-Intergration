@@ -1,0 +1,16 @@
+server :
+  port : 8090
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database : DATABASE_NAME
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - "*"

@@ -1,0 +1,4 @@
+01) Run the Server.
+02) Expose the `localhost:8090/actuator` inbuild end point.
+03) Explore the back-end service health, beans, chaches, conditions, loggers, metrics utilize related endpoints.
+04) Able to find out project status.
